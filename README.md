@@ -3,13 +3,12 @@
 # Project
 
 This this a simple food ordering applcation made with reactJs. User can filter foods by category and add them to cart and send the order.
-Curretly the order is saved to firebase realtime database.
-Next steps for developing this add is to add multiple restaurants to choose from and list their menus.
+Next steps for developing this add is to add multiple restaurants to choose from and list their menus. Also backend implementation is one of next steps.
 
 
 
 ## Usage
-Live demo can be found here : TODO add link here
+Live demo is hosted in AWS S3 and can be found [here](http://penasgrill.s3-website.eu-north-1.amazonaws.com/). 
 
 ## Installation
 
