@@ -1,0 +1,25 @@
+.mealfilter{
+    text-align: center;
+    margin-top: 10px;
+    /* display: flex;
+    flex-direction: row; */
+    /* display: flex;
+    justify-content: flex-start;
+    gap: 1px; */
+
+}
+
+.mealfilter button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 8px;
+}
+.mealfilter button:hover{
+    background-color: #372016;
+}
