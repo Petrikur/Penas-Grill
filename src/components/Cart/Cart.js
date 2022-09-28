@@ -30,21 +30,21 @@ const Cart = (props) => {
 
   const submitOrderHandler = async (userdata) => {
     setIsSubmitting(true);
-    try {
+    // try {
 
-      await fetch(
-        `${process.env.REACT_APP_FIREBASE_URL}`,
-        {
-          method: "POST",
-          body: JSON.stringify({
-            user: userdata,
-            orderedItems: cartCtx.items,
-          }),
-        }
-      );
-    } catch(e){
-      console.log(e)
-    }
+    //   await fetch(
+    //     `${process.env.REACT_APP_FIREBASE_URL}`,
+    //     {
+    //       method: "POST",
+    //       body: JSON.stringify({
+    //         user: userdata,
+    //         orderedItems: cartCtx.items,
+    //       }),
+    //     }
+    //   );
+    // } catch(e){
+    //   console.log(e)
+    // }
     setIsSubmitting(false);
     setDidSubmit(true);
     cartCtx.clearCart();
